@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="John Durham">
+        <link href="css/style.css" rel="stylesheet" type="text/css">
+        <title>Planets Data</title>
+    </head>
+    <body>
+        <!-- Wrap the top-level heading in a header element -->
+        <header>
+            <h1>Planets Data</h1>
+        </header>
+        <main>
+            <table>
+                <caption>
+                    Data about the planets of our solar system (Planetary facts taken from <a href="http://nssdc.gsfc.nasa.gov/planetary/factsheet/">Nasa's Planetary Fact Sheet - Metric</a>).
+                </caption>
+                <colgroup>
+                    <col span="2" class="planet" title="Planet Type and Name">
+                    <col class="mass" title="Mass (10^24 kg)">
+                    <col class="diameter" title="Diameter (km)">
+                    <col class="density" title="Density (g/cm³)">
+                    <col class="gravity" title="Gravity (m/s²)">
+                    <col class="length-of-day" title="Length of Day (hours)">
+                    <col class="distance-from-sun" title="Distance from Sun (10^6 km)">
+                    <col class="mean-temperature" title="Mean Temperature (°C)">
+                    <col class="moons" title="Number of Moons">
+                    <col class="notes" title="Notes">
+                    <col class="image" title="Image">
+                </colgroup>
+                <thead>
+                    <tr>
+                        <th scope="col" rowspan="2">Planet Type</th>
+                        <th scope="col" rowspan="2">Name</th>
+                        <th scope="col" colspan="8">Planetary Data</th>
+                        <th scope="col" rowspan="2">Notes</th>
+                        <th scope="col" rowspan="2">Image</th>
+                    </tr>
+                    <tr>
+                        <th scope="col">Mass</th>
+                        <th scope="col">Diameter</th>
+                        <th scope="col">Density</th>
+                        <th scope="col">Gravity</th>
+                        <th scope="col">Length of Day</th>
+                        <th scope="col">Distance from Sun</th>
+                        <th scope="col">Mean Temperature</th>
+                        <th scope="col">Moons</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="rowgroup" rowspan="4">Terrestrial Planets</th>
+                        <th scope="row">Mercury</th>
+                        <td>0.33</td>
+                        <td>4879</td>
+                        <td>5.43</td>
+                        <td>3.7</td>
+                        <td>4222.6</td>
+                        <td>57.9</td>
+                        <td>167</td>
+                        <td>0</td>
+                        <td>Closest planet to the Sun</td>
+                        <td><img src="images/mercury.jpg" alt="Image of Mercury"></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Venus</th>
+                        <td>4.87</td>
+                        <td>12,104</td>
+                        <td>5.24</td>
+                        <td>8.9</td>
+                        <td>2802.0</td>
+                        <td>108.2</td>
+                        <td>464</td>
+                        <td>0</td>
+                        <td>Hottest planet in the solar system</td>
+                        <td><img src="images/venus.jpg" alt="Image of Venus"></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Earth</th>
+                        <td>5.97</td>
+                        <td>12,742</td>
+                        <td>5.51</td>
+                        <td>9.8</td>
+                        <td>24.0</td>
+                        <td>149.6</td>
+                        <td>15</td>
+                        <td>1</td>
+                        <td>Only planet known to support life</td>
+                        <td><img src="images/earth.jpg" alt="Image of Earth"></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Mars</th>
+                        <td>0.642</td>
+                        <td>6792</td>
+                        <td>3.93</td>
+                        <td>3.7</td>
+                        <td>24.7</td>
+                        <td>227.9</td>
+                        <td>-65</td>
+                        <td>2</td>
+                        <td>Known as the Red Planet</td>
+                        <td><img src="images/mars.jpg" alt="Image of Mars"></td>
+                    </tr>
+                    <tr>
+                        <th scope="rowgroup" rowspan="4">Jovian Planets</th>
+                        <th scope="rowgroup" rowspan="2">Gas Giants</th>
+                        <th scope="row">Jupiter</th>
+                        <td>1898</td>
+                        <td>139,820</td>
+                        <td>1.33</td>
+                        <td>23.1</td>
+                        <td>9.9</td>
+                        <td>778.6</td>
+                        <td>-110</td>
+                        <td>79</td>
+                        <td>Largest planet in the solar system</td>
+                        <td><img src="images/jupiter.jpg" alt="Image of Jupiter"></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Saturn</th>
+                        <td>568</td>
+                        <td>116,460</td>
+                        <td>0.69</td>
+                        <td>9.0</td>
+                        <td>10.7</td>
+                        <td>1433.5</td>
+                        <td>-140</td>
+                        <td>83</td>
+                        <td>Famous for its ring system</td>
+                        <td><img src="images/saturn.jpg" alt="Image of Saturn"></td>
+                    </tr>
+                    <tr>
+                        <th scope="rowgroup" rowspan="2">Ice Giants</th>
+                        <th scope="row">Uranus</th>
+                        <td>86.8</td>
+                        <td>50,724</td>
+                        <td>1.27</td>
+                        <td>8.7</td>
+                        <td>17.2</td>
+                        <td>2872.5</td>
+                        <td>-195</td>
+                        <td>27</td>
+                        <td>Rotates on its side</td>
+                        <td><img src="images/uranus.jpg" alt="Image of Uranus"></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Neptune</th>
+                        <td>102</td>
+                        <td>49,244</td>
+                        <td>1.64</td>
+                        <td>11.0</td>
+                        <td>16.1</td>
+                        <td>4495.1</td>
+                        <td>-200</td>
+                        <td>14</td>
+                        <td>Known for its deep blue color</td>
+                        <td><img src="images/neptune.jpg" alt="Image of Neptune"></td>
+                    </tr>
+                    <tr>
+                        <th scope="rowgroup">Dwarf Planet</th>
+                        <th scope="row">Pluto</th>
+                        <td>0.013</td>
+                        <td>2376</td>
+                        <td>2.03</td>
+                        <td>0.62</td>
+                        <td>153.3</td>
+                        <td>5906.4</td>
+                        <td>-225</td>
+                        <td>5</td>
+                        <td>Reclassified as a dwarf planet in 2006 (<a href="https://en.wikipedia.org/wiki/IAU_definition_of_planet" title="Learn more about the Pluto controversy">Pluto controversy</a>)</td>
+                        <td><img src="images/pluto.jpg" alt="Image of Pluto"></td>
+                    </tr>
+                </tbody>
+            </table>
+        </main>
+    </body>
+</html>
