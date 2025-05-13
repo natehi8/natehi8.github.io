@@ -31,13 +31,13 @@ body {
     min-width:39rem;
     max-width:50rem;
     margin:0 auto;
-    background-image:url(images/wrinkled-white-paper-background.jpg);
-    background-size:cover;
-    background-repeat: no-repeat;
+    
 }
 main {
     background-color:#ddd;
-   
+    background-image:url(images/wrinkled-white-paper-background.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
     border:1px solid #333;
 }
 
@@ -130,7 +130,7 @@ figcaption {
     font-size: 1.25rem; /* 20px */
     color: black;
     /*text-shadow: 0.09375rem 0.09375rem 0.09375rem #000; /* 1.5px */
-    font-family: Garamond, serif;
+    font-family: Garamond;
     font-weight: normal; /* Ensure text is not bold */
 }
 
@@ -151,7 +151,7 @@ footer {
     margin: 0;
     color: black;
     /*text-shadow: 0.09375rem 0.09375rem 0.09375rem #000; /* 1.5px */
-    font-family:Garamond, serif;
+    font-family:Garamond;
     text-align: center;
     font-weight: normal; /* Ensure text is not bold */
 }
