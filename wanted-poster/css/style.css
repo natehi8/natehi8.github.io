@@ -139,6 +139,7 @@ p {
     text-shadow: 0.09375rem 0.09375rem 0.09375rem #000; /* 1.5px */
     font-family: 'Alfa Slab One', Garamond, serif;
     text-align: left;
+    font-weight: normal;
 }
 
 /* Image & Figure */
@@ -160,10 +161,11 @@ figcaption {
     font-size: 1.25rem; /* 20px */
     margin: 0;
     padding-top: 0.5rem; /* 8px */
-    color: darkred;
+    color: black;
     text-shadow: 0.09375rem 0.09375rem 0.09375rem #000; /* 1.5px */
     font-family: 'Alfa Slab One', Garamond, serif;
     text-align: right;
+    font-weight: normal;
 }
 
 /* Footer */
@@ -177,6 +179,7 @@ footer {
     text-shadow: 0.09375rem 0.09375rem 0.09375rem #000; /* 1.5px */
     font-family: 'Alfa Slab One', Garamond, serif;
     text-align: center;
+    font-weight: normal;
 }
 
 
