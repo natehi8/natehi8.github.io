@@ -129,7 +129,7 @@ figcaption {
     font-size: 1.25rem; /* 20px */
     color: black;
     text-shadow: 0.09375rem 0.09375rem 0.09375rem #000; /* 1.5px */
-    font-family: 'Alfa Slab One', Garamond, serif;
+    font-family: Garamond, serif;
     font-weight: normal; /* Ensure text is not bold */
 }
 
@@ -150,7 +150,7 @@ footer {
     margin: 0;
     color: black;
     text-shadow: 0.09375rem 0.09375rem 0.09375rem #000; /* 1.5px */
-    font-family: 'Alfa Slab One', Garamond, serif;
+    font-family:Garamond, serif;
     text-align: center;
     font-weight: normal; /* Ensure text is not bold */
 }
