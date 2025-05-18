@@ -35,7 +35,7 @@ body {
 }
 main {
     background-color:#ddd;
-    background-image:url(images/wrinkled-white-paper-background.jpg);
+    background-image:url(../images/wrinkled-white-paper-background.jpg);
     background-size:cover;
     background-repeat: no-repeat;
     border:1px solid #333;
@@ -55,12 +55,13 @@ main {
 
 /* Headings */
 
-h1, h2, h3, h4 {
+h1 {
     text-transform: uppercase;
+    font-size: 6rem; /* 96px */
+    margin: 0;
     color: darkred;
     text-shadow: 0.09375rem 0.09375rem 0.09375rem #000; /* 1.5px */
-    font-family: 'Alfa Slab One', Garamond, serif;
-    margin: 0;
+    font-family: 'Alfa-Slab-One', Garamond, Serif;
     text-align: center;
 }
 
@@ -110,11 +111,6 @@ p {
     padding: 0 1rem; /* 0 top/bottom, 16px left/right */
     width: 90%;
     text-align: left;
-    font-size: 1.25rem; /* 20px */
-    color: black;
-    text-shadow: 0.09375rem 0.09375rem 0.09375rem #000; /* 1.5px */
-    font-family: 'Alfa Slab One', Garamond, serif;
-    font-weight: normal; /* Ensure text is not bold */
 }
 
 /* Image & Figure */
@@ -147,13 +143,6 @@ img {
 footer {
     padding: 1rem; /* 16px */
     border-top: 2rem solid #333; /* 32px */
-    font-size: 1.25rem; /* 20px */
-    margin: 0;
-    color: black;
-    /*text-shadow: 0.09375rem 0.09375rem 0.09375rem #000; /* 1.5px */
-    font-family:Garamond;
-    text-align: center;
-    font-weight: normal; /* Ensure text is not bold */
 }
 
 
