@@ -69,11 +69,14 @@ h2 {
     font-size: 3rem; /* 48px */
     font-weight: normal;
     letter-spacing: 0.25rem; /* 4px */
+    color: darkred;
+    text-align: center;
 }
 
 h3 {
     font-size: 2rem; /* 32px */
     font-weight: normal;
+    text-align: center; 
 }
 
 h4 {
@@ -81,6 +84,7 @@ h4 {
     font-weight: normal;
     letter-spacing: 0.25rem; /* 4px */
     padding-bottom: 1.125rem; /* 18px */
+    color: darkred;
 }
 
 h4 > span {
@@ -103,7 +107,8 @@ section {
     margin-top: 0.5rem; /* 8px */
     padding: 0;
     text-align: center;
-    font-weight: normal; /* Ensure text is not bold */
+    color: darkred ;
+
 }
 
 p {
