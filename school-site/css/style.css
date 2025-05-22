@@ -1,0 +1,303 @@
+/* General setup */
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size:16px;
+}
+
+body {
+    margin: 1.5rem auto;
+    width:90%;
+    min-width:56.25rem;
+}
+
+/* Layout */
+
+main {
+    overflow:auto;
+    min-width:45rem;
+    
+}
+
+section {
+    float: left;
+    min-width: 22.5rem;
+    width:50%;
+}
+
+figure {
+    width:60%;
+    margin:0 10% 0 0;
+    float:left;
+}
+
+figure img {
+    width:100%;
+    max-width:25rem;
+}
+
+figcaption {
+    margin:.375rem 0;
+}
+
+.long-list {
+    margin-top:0;
+}
+
+nav {
+    float: left;
+    width:11.25rem;
+}
+
+footer {
+    clear: both;
+    margin-top:1.5rem;
+}
+
+section, aside, nav, footer {
+  padding: .5rem;
+}
+
+/* header and footer */
+
+header, footer {
+  border-top: .125rem solid #33658A;
+  border-bottom: .125rem solid #33658A;
+}
+
+/* ------ START WRITING YOUR CODE BELOW THIS LINE ------ */
+
+/* NO changes should be made to any of the code above. */
+
+/* NOTE: While you will be using some of the same CSS properties, the VALUES 
+   may need to be different in order to style the page correctly. */
+
+
+
+/* Imported Typefaces */
+
+@font-face {
+    font-family: 'josefinslab';
+    src: url('fonts/josefinslab-regular') format('truetype'),
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'montserrat';
+    src: url('fonts/montserrat-regular') format('truetype'),
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Typography Styles */
+
+/* Root element */
+html {
+    font-family: 'Montserrat', Arial, sans-serif; /* Use Montserrat with fallback options */
+    font-size: 16px; /* Default font size */
+    line-height: 1.5; /* Improve readability */
+}
+
+/* Headings */
+
+/* Level 1 Heading */
+h1 {
+    font-family: 'Josefinslab', Georgia, serif; /* Use Josefinslab with fallback options */
+    color: #33658A;
+    font-size: 3.75rem; /* 60px */
+    margin: 1.125rem 0; /* 18px */
+    line-height: 1.2;
+    letter-spacing: 0.125rem; /* 2px */
+    text-align: center; /* Center-align the text */
+}
+
+/* Level 2 Heading */
+h2 {
+    font-family: 'Josefinslab', Georgia, serif; /* Use Josefinslab with fallback options */
+    color: #33658A;
+    font-size: 1.5rem; /* 24px */
+    margin: 0.5rem 0;
+    line-height: 1.2;
+    letter-spacing: 0.125rem; /* 2px */
+}
+
+/* Paragraphs */
+p {
+    font-family: 'Roboto', Arial, sans-serif;
+    font-size: 0.75rem; /* 12px */
+    margin: 1rem 0;
+    color: #333;
+    letter-spacing: 0.03125rem; /* 0.5px */
+    word-spacing: 0.125rem; /* 2px */
+}
+
+/* Paragraphs immediately after a level 2 heading */
+h2 + p {
+    font-style: italic;
+    color: #33658A;
+    text-indent: 1.5rem; /* 24px */
+}
+
+/* Figcaption */
+figcaption {
+    font-family: 'Lora', serif;
+    font-size: 0.75rem; /* 12px */
+    color: #666;
+    text-align: center;
+    margin-top: 0.5rem;
+    margin-bottom: 2rem; /* 32px */
+}
+
+/* Listed Items */
+li {
+    font-family: 'Roboto', Arial, sans-serif;
+    font-size: 0.75rem; /* 12px */
+    margin: 0.5rem 0;
+    color: #333;
+    line-height: 1.5; /* Improve readability */
+    letter-spacing: 0.03125rem; /* 0.5px */
+    word-spacing: 0.125rem; /* 2px */
+}
+
+/* Link Styling */
+
+a {
+    font-family: 'Roboto', Arial, sans-serif;
+    color: #33658A; /* Default link color */
+    text-decoration: none; /* Remove underline */
+    font-weight: normal;
+    outline: none; /* Remove the default outline for keyboard navigation */
+}
+
+a:visited {
+    color: #33658A; /* Same color for visited links */
+}
+
+a:focus, a:hover {
+    text-decoration: none; /* Remove underline for focus and hover states */
+}
+
+a:hover {
+    color: #2A9D8F; /* Lighter shade for hover state */
+}
+
+a:focus {
+    outline: 2px dashed #33658A; /* Add a custom dashed outline for accessibility */
+    outline-offset: 2px;
+}
+
+/* List Styling */
+
+ul, ol {
+    font-family: 'Roboto', Arial, sans-serif;
+    font-size: 1rem; /* 16px */
+    margin: 1rem 0; /* 16px top/bottom, 0 left/right */
+    padding-left: 1.5rem; /* Indent list items */
+    color: #333;
+    line-height: 1.5; /* Improve readability */
+    list-style-position: outside; /* Ensure bullets/numbers are outside the text */
+}
+
+/* Unordered List Styling */
+ul {
+    list-style-type: square; /* Use square bullet points */
+}
+
+/* Ordered List Styling */
+ol {
+    list-style-type: lower-alpha; /* Use lowercase letters for ordered lists */
+}
+
+.long-list:hover {
+    background-color: #F0F4F8; /* Light background color on hover */
+    border-left: 0.25rem solid #33658A; /* Add a left border for emphasis */
+    padding-left: 1.25rem; /* Adjust padding to account for the border */
+}
+
+/* Navigation Menu */
+
+/* Style the navigation container */
+nav {
+    background-color: #F0F4F8; /* Light background color */
+    padding: 0 1rem; /* Left padding set to 0, right padding remains 1rem */
+    margin-top: 0.25rem; /* 4px expressed in rem units */
+    border: 0.125rem solid #33658A; /* Add a border around the navigation */
+    border-radius: 0.5rem; /* Rounded corners */
+}
+
+/* Style the links inside the navigation */
+nav a {
+    font-family: 'Roboto', Arial, sans-serif;
+    font-size: 1.125rem; /* 18px */
+    color: #33658A; /* Default link color */
+    text-decoration: none; /* Remove underline */
+    display: inline-block; /* Display links as inline-block */
+    width: 100%; /* Set the width to 100% */
+    line-height: 3; /* Set line height to 3 */
+    text-align: center; /* Center the text */
+    margin-bottom: 1.5rem; /* 24px expressed in rem units */
+    padding: 0.5rem; /* Add padding inside the links */
+    border: 0.0625rem solid #33658A; /* Solid border with 1px width */
+    border-radius: 0.25rem; /* Rounded corners for links */
+    transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transition for hover/focus effects */
+}
+
+/* Focus state */
+nav a:focus {
+    outline: 2px dashed #33658A; /* Add a dashed outline for accessibility */
+    outline-offset: 2px;
+    background-color: #D9EAF7; /* Light blue background on focus */
+}
+
+/* Focus and Hover states for navigation links */
+nav a:focus, 
+nav a:hover {
+    color: #FFF; /* Foreground color: white */
+    background-color: #33658A; /* Background color: #33658A */
+}
+
+/* Active state */
+nav a:active {
+    background-color: #000; /* Black background for active state */
+    color: #FFF; /* White text color for active state */
+}
+
+/* Footer Styles */
+
+footer {
+    background-color: #F0F4F8; /* Light background color */
+    color: #333; /* Text color */
+    font-family: 'Roboto', Arial, sans-serif;
+    font-size: 0.875rem; /* 14px */
+    text-align: center; /* Center-align the text */
+    padding: 1rem; /* Add padding inside the footer */
+    border-top: 0.125rem solid #33658A; /* Add a top border */
+    margin-top: 2rem; /* Add spacing above the footer */
+    line-height: 1.5; /* Improve readability */
+}
+
+footer a {
+    color: #33658A; /* Link color in the footer */
+    text-decoration: none; /* Remove underline */
+    font-weight: normal;
+}
+
+footer a:hover {
+    color: #2A9D8F; /* Change link color on hover */
+    text-decoration: underline; /* Add underline on hover */
+}
+
+/* Long-list links hover state */
+.long-list a:hover {
+    text-transform: uppercase; /* Transform text to uppercase */
+}
+
+
+
+
+
+
