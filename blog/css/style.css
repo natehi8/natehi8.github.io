@@ -94,6 +94,7 @@ h1 {
     font-size: 3 rem; /* 40px */
     letter-spacing: 0.25rem; /* 4px */
     transform: rotate(-5deg); 
+    text-align: center;
 }
 
 .highlight { 
@@ -174,7 +175,7 @@ a.expand {
     padding: 0.1rem 0.5rem;
 }
 
-footer.attribution { 
+footer.attribution p { 
     text-align: right;
 }
 
