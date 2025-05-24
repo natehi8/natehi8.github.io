@@ -68,8 +68,7 @@ nav {
       flex-wrap:wrap;
       flex-direction: column;
       width:14rem;
-      border:.0625rem solid #333;
-      background-color:#8FB0D0;
+      background-color:#052b51;
       position:fixed;
 }
 
