@@ -110,6 +110,13 @@ h1 {
     box-shadow: 5px 5px 4px 1px #888;
 }
 
+/* Rotate and strikethrough for .blog class */
+nav.blog {
+    display: inline-block;
+    transform: rotate(-8deg);
+    text-decoration: line-through;
+    color: black;
+}
 
 /* GENERAL SETUP AND DEFAULTS */
 
