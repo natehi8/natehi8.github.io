@@ -143,7 +143,7 @@ article {
 aside { 
     grid-column: 2 / 3;
     grid-row: 1;
-    border-left: 1ps solid black;
+    border-left: 1px solid black;
     padding-left: 0.75rem;
 }
 
@@ -172,6 +172,10 @@ aside p {
 a.expand { 
     font-size: 0.75rem; /* 18px */
     padding: 0.1rem 0.5rem;
+}
+
+footer.attribution { 
+    text-align: right;
 }
 
 /* IMAGES AND FIGURES */
