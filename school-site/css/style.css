@@ -187,39 +187,29 @@ ol {
 
 /* Style the navigation container */
 nav {
-    background-color: #F0F4F8; /* Light background color */
-    padding: 0 1rem; /* Left padding set to 0, right padding remains 1rem */
-    margin-top: 0.25rem; /* 4px expressed in rem units */
-    border: 0.125rem solid #33658A; /* Add a border around the navigation */
-    border-radius: 0.5rem; /* Rounded corners */
+    padding-left: 0rem;
+    margin-top: 0.25rem;
 }
 
 /* Style the links inside the navigation */
 nav a {
-    font-family: 'Roboto', Arial, sans-serif;
+    text-decoration: none;
+    display: inline-block;
+    width: 100%;
+    line-height: 3;
+    text-align: center;
     font-size: 1.125rem; /* 18px */
-    color: #33658A; /* Default link color */
-    text-decoration: none; /* Remove underline */
-    display: inline-block; /* Display links as inline-block */
-    width: 100%; /* Set the width to 100% */
-    line-height: 3; /* Set line height to 3 */
-    text-align: center; /* Center the text */
     margin-bottom: 1.5rem; /* 24px expressed in rem units */
-    padding: 0.5rem; /* Add padding inside the links */
-    border: 0.0625rem solid #33658A; /* Solid border with 1px width */
-    border-radius: 0.25rem; /* Rounded corners for links */
-    transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transition for hover/focus effects */
+    border: 0.0625rem solid #33658A;
 }
 
 /* Focus state */
 nav a:focus {
-    outline: 2px dashed #33658A; /* Add a dashed outline for accessibility */
-    outline-offset: 2px;
-    background-color: #D9EAF7; /* Light blue background on focus */
+    color: #FFF;
+    background-color: #33658A; /* Background color: #33658A *//* Light blue background on focus */
 }
 
-/* Focus and Hover states for navigation links */
-nav a:focus, 
+/* Focus and Hover states for navigation links */ 
 nav a:hover {
     color: #FFF; /* Foreground color: white */
     background-color: #33658A; /* Background color: #33658A */
@@ -234,31 +224,7 @@ nav a:active {
 /* Footer Styles */
 
 footer {
-    background-color: #F0F4F8; /* Light background color */
-    color: #333; /* Text color */
-    font-family: 'Roboto', Arial, sans-serif;
-    font-size: 0.875rem; /* 14px */
-    text-align: center; /* Center-align the text */
-    padding: 1rem; /* Add padding inside the footer */
-    border-top: 0.125rem solid #33658A; /* Add a top border */
-    margin-top: 2rem; /* Add spacing above the footer */
-    line-height: 1.5; /* Improve readability */
-}
-
-footer a {
-    color: #33658A; /* Link color in the footer */
-    text-decoration: none; /* Remove underline */
-    font-weight: normal;
-}
-
-footer a:hover {
-    color: #2A9D8F; /* Change link color on hover */
-    text-decoration: underline; /* Add underline on hover */
-}
-
-/* Long-list links hover state */
-.long-list a:hover {
-    text-transform: uppercase; /* Transform text to uppercase */
+    text-align: center;
 }
 
 
