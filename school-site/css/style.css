@@ -135,32 +135,29 @@ figcaption {
 }
 
 /* Link Styling */
-
 a {
-    font-family: 'Roboto', Arial, sans-serif;
-    color: #33658A; /* Default link color */
-    text-decoration: none; /* Remove underline */
-    font-weight: normal;
-    outline: none; /* Remove the default outline for keyboard navigation */
+    outline: none;;
+}
+
+a:link {
+    outline: none;
+    color: #33658A;
 }
 
 a:visited {
-    color: #33658A; /* Same color for visited links */
+    outline: none;
+    color: #33658A;
 }
 
-a:focus, a:hover {
-    text-decoration: none; /* Remove underline for focus and hover states */
+a:focus{
+    outline: none;
+    text-decoration: none;;
 }
 
-a:hover {
-    color: #2A9D8F; /* Lighter shade for hover state */
+a:hover{
+    outline: none;
+    text-decoration: none;;
 }
-
-a:focus {
-    outline: 2px dashed #33658A; /* Add a custom dashed outline for accessibility */
-    outline-offset: 2px;
-}
-*/
 
 /* List Styling */
 
